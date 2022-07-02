@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa85b3bd-6bd1-4fea-8892-b337db2a171b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Structures/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structures/FieldsForNumberScoreboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structures/FieldsForStreaksScoreboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structures/UsefullFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhysicalStructures/NumbersScoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhysicalStructures/NumbersScoreboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhysicalStructures/Scoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhysicalStructures/Scoreboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhysicalStructures/StreaksScoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhysicalStructures/StreaksScoreboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656705553112</updated>
       <workItem from="1656705555512" duration="1399000" />
-      <workItem from="1656778458466" duration="789000" />
+      <workItem from="1656778458466" duration="1840000" />
     </task>
     <servers />
   </component>

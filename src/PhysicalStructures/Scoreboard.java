@@ -4,10 +4,12 @@ import Database.Lyrics;
 import Exceptions.FatalSystemError;
 import Structures.Field;
 import Structures.FieldsForStreaksScoreboard;
-import PhysicalStructures.Dice;
 
 public abstract class Scoreboard {
     private Field[] fields;
+
+    // if yatzi must be multiplied its starts with *2
+    private int yatziMultiplyFactorCounter = 2;
 
     public Scoreboard(Field[] pFields) {
         this.fields = pFields;
@@ -21,7 +23,7 @@ public abstract class Scoreboard {
      * set a score on Scoreboard
      * @param keyOfField target Field
      * @param throwed dices that was thrown
-     * @return returns if set score was succeded 0 for false 1 for true
+     * @return returns if set score was succeded 0 for false 1 for true multipleYatzi for Yatzi Case
      */
     public int setAScore(String keyOfField, Dice[] throwed) throws FatalSystemError {
         // find field with right key
@@ -43,7 +45,12 @@ public abstract class Scoreboard {
 
                     return 1;
                 }catch(Exception exception) {
-
+                    // for Yatzi we need a check here, if it was set but is possible user can set in on antoher field so
+                    // so if Yatzi and exception is Score already set and NOT crossed because u cant score a yatzi then anymore
+                    if ((keyOfField.equals(FieldsForStreaksScoreboard.YATZI.toString()))
+                            && (exception.getMessage().equals(Lyrics.FIELD_SCORE_IS_ALREADY_SET)) ) {
+                        return yatziMultiplyFactorCounter;
+                    }
                     System.out.println(exception.getMessage());
                     return 0;
                 }
@@ -124,5 +131,17 @@ public abstract class Scoreboard {
         }
         return false;
     }
+    /**
+     * evaluates failure Message and returns if its a failed Message or not  and prints it if it is one
+     * @param failureMessage
+     * @return if its failed or not
+     */
+    protected boolean evaluateFailureMessage(String failureMessage) {
+        if (failureMessage.isEmpty()) {
+            return true;
+        }
 
+        System.out.println(failureMessage);
+        return false;
+    }
 }

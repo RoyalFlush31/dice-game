@@ -1,10 +1,8 @@
 package PhysicalStructures;
 
 import Exceptions.FatalSystemError;
-import PhysicalStructures.Scoreboard;
 import Structures.Field;
 import Structures.FieldsForNumberScoreboard;
-import PhysicalStructures.Dice;
 
 public class NumbersScoreboard extends Scoreboard {
     private final int BONUS_BARRIER = 63;
