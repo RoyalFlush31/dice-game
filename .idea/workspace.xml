@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa85b3bd-6bd1-4fea-8892-b337db2a171b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/FatalSystemError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structures/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structures/FieldsForNumberScoreboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structures/FieldsForStreaksScoreboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structures/UsefullFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +24,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656705553112</updated>
       <workItem from="1656705555512" duration="1399000" />
+      <workItem from="1656778458466" duration="789000" />
     </task>
     <servers />
   </component>
