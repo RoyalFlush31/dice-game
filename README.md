@@ -2,8 +2,13 @@
 System Development Group Project
 # Members:
 Janis Ben Helal - 8449480
+
 Lennert Fuhrmann - 8427533
+
 Greta Mosel - 8447870
+
+Etna Jaho - 8422490
+
 
 # Rules:
 When it’s your turn to play, you’ll be able to roll the dice up to 3 times, choosing which dice you want to re-roll or keep the same.
