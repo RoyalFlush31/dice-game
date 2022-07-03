@@ -11,7 +11,7 @@ Etna Jaho - 8422490
 
 David Brodhagen - 8417874
 
-# Rules:
+## Rules:
 When it’s your turn to play, you’ll be able to roll the dice up to 3 times, choosing which dice you want to re-roll or keep the same.
 
 You’ll also be able to interrupt your turn at any time before the third roll, but you’ll have to fill a number in your scorecard by the end of your turn.
@@ -31,7 +31,7 @@ Winning Yahtzee relies on a combination of strategy, and skilled rolling.
 
 You’ll have up to three rolls on each of your turns to help you get the combination that you want, and you can also choose to keep as many dice as you like from each roll.
 
-# Scoring
+## Scoring
 In the upper section of the scorecard, you’ll be able to add the total of the dice that applies to the number that you want to record your score for.
 
 If you roll 4 threes and want to use this in the upper section for the number 3, you would get 12 points.
@@ -59,4 +59,9 @@ Chance: Sum of all five dice
 There’s one final rule to keep in mind when you’re playing Yahtzee – and that’s to yell Yahtzee when you score five dice of the same value.
 Half of the fun of the game is shouting out the title when you roll a fantastic combination.
 Although some people don’t force this rule, it’s a great way to open people up and have some more fun when you’re playing the gam
+
+# Heroku App
+
+You canfind the game deployed under: https://kniffel-game.herokuapp.com/
+
 
