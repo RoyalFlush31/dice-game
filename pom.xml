@@ -8,6 +8,7 @@
   <name>Kniffel Online Webapp</name>
   <url>http://maven.apache.org</url>
 
+<<<<<<< Updated upstream
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -43,3 +44,15 @@
     </plugins>
   </build>
 </project>
+=======
+    <groupId>java</groupId>
+    <artifactId>Untitled</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+    
+</project>
+>>>>>>> Stashed changes
