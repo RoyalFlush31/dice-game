@@ -6,8 +6,8 @@ import java.util.ArrayList;
  *  just a database to save all text and make it possible to change it fast
  */
 public class Lyrics {
-    public static final String CHOOSE_PLAYER_NUMBER = "Bitte wählen Sie die Anzahl der Spieler aus:";
-    public static final String INFO_FOR_CHOOSING_OPTIONS = "Bitte wählen Sie eine der folgenden Möglichkeiten aus indem Sie die vorangestellte Nummer eingeben.";
+    public static final String CHOOSE_PLAYER_NUMBER = "Please select the number of players:";
+    public static final String INFO_FOR_CHOOSING_OPTIONS = "Please select one of the following options by entering the number in front of it.";
     public static final String SAVED_DICES = "These are ur current saved Dices: ";
     public static final String NO_SAVED_DICES = "Currently u have no saved Dices.";
     public static final String ALL_DICES = "These are ur current Dices (saved and unsaved): \n";
