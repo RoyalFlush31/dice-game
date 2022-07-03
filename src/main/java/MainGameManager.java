@@ -50,7 +50,7 @@ public class MainGameManager {
                 // solange nicht gewürfelt wurde ist der Spieler an der Reihe, wenn gewürfelt wurde muss darf er nur noch 2 mal würfeln
                 int optionChoosen = -1;
                 while (optionChoosen != 1) {
-                    optionChoosen = game.DialogWithNumberUserResponse(Lyrics.getOptionsForThrowingDices(), 1, 6);
+                    optionChoosen = game.DialogWithNumberUserResponse(Lyrics.getOptionsForThrowingDices(), 1, 7);
                     switch (optionChoosen) {
                         case 1:
                             // Throw Dices
@@ -142,6 +142,11 @@ public class MainGameManager {
                                 optionChoosen = 1;
                                 Arrays.toString(players[i].getDiceCup().getAllDices());
                             }
+                            break;
+                        case 7:
+                            // See current Scoreboard
+                            System.out.println(players[i].getNumbersScoreboard().toString(Lyrics.NAME_OF_FIRST_SCOREBOARD));
+                            System.out.println(players[i].getStreaksScoreboard().toString(Lyrics.NAME_OF_SECOND_SCOREBOARD));
                             break;
                         default:
                             // Only goes here if DialogWithNumberUserResponse doesnt work
@@ -457,9 +462,10 @@ public class MainGameManager {
 
         // Print Winners
         for (int i = 0; i < winners.length; i++) {
-            System.out.println(players[i].getName() + ": " + scores[i]);
             if (winners[i]) {
-                System.out.print("  <---- WINNER");
+                System.out.println(players[i].getName() + ": " + scores[i] + " WINNER :)");
+            }else {
+                System.out.println(players[i].getName() + ": " + scores[i]);
             }
         }
     }

@@ -54,7 +54,8 @@ public class Lyrics {
                 "(3) SEE SAFED DICES ",
                 "(4) SEE ALL DICES ",
                 "(5) SELECT SAFED DICES OR DELETE SELECTION ",
-                "(6) Skip to Register with current dices"
+                "(6) Skip to Register with current dices",
+                "(7) See current Scoreboards"
         };
     }
 
