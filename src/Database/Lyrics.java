@@ -134,22 +134,22 @@ public class Lyrics {
 
     // Messages
     public static String getMessageNumberOfPlayers(int numbersOfPlayers) {
-        return "Es spielen " + numbersOfPlayers + " Spieler.";
+        return "" + numbersOfPlayers + " Players are in the game.";
     }
 
     public static String getMessageChooseAnAvailableOptionInfo() {
         return "\n" +
                 "---------------INFO---------------\n" +
-                "Geben Sie eine gültige Nummer einer Option ein!" +
+                "Enter a valid number of an option!" +
                 "\n";
     }
 
     public static String getMessageForGetPlayername(int spielernummer){
-        return  "Bitte geben Sie den Namen für Spieler " + spielernummer + " an.";
+        return  "Please enter a name for player " + spielernummer + ".";
     }
 
     public static String getPlayerXTurn(String playername) {
-        return "Spieler " + playername + " ist an der Reihe.";
+        return "It's " + playername + " 's turn.";
     }
 
     public static String getMessageForDicesWillBeThrown(int numberOfDices) {
