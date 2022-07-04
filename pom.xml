@@ -1,25 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.heroku.sample</groupId>
-  <artifactId>KniffelOnline</artifactId>
-  <packaging>war</packaging>
+  <groupId>java</groupId>
+  <artifactId>Untitled</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Kniffel Online Webapp</name>
-  <url>http://maven.apache.org</url>
 
-<<<<<<< Updated upstream
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <build>
-    <finalName>Kniffel Online</finalName>
-    <plugins>
+  <properties>
+      <maven.compiler.source>18</maven.compiler.source>
+      <maven.compiler.target>18</maven.compiler.target>
+  </properties>
+  
+  <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
@@ -42,17 +33,5 @@
             </executions>
         </plugin>
     </plugins>
-  </build>
-</project>
-=======
-    <groupId>java</groupId>
-    <artifactId>Untitled</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-    </properties>
     
 </project>
->>>>>>> Stashed changes
